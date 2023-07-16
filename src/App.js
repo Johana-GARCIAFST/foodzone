@@ -1,12 +1,12 @@
-import './App.css';
+import "./App.css";
+import ContainerDish from "./componentes/ContainerDish";
 
 function App() {
   return (
-    <>
-    Hello world!
-    </>
-   
-);
+    <main>
+      <ContainerDish />
+    </main>
+  );
 }
 
 export default App;
