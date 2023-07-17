@@ -1,0 +1,158 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .container_dishes {
+      padding: 1rem;
+  }
+
+  .container_dishes h4 {
+      font-weight: bold;
+      color: #1E1E1E;
+      margin: 1rem 0;
+      text-align: center;
+  }
+
+  .container_dishes .dishes {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+
+  .container_dishes .dishes .dish {
+      margin: 4rem 0 1.2rem;
+      height: 14rem;
+      width: 8rem;
+      position: relative;
+      border-radius: 1rem;
+      background-color: #1E1E1E;
+  }
+
+  .container_dishes .dishes .dish .dish_container-image {
+      height: 9rem;
+      width: 9rem;
+      position: absolute;
+      top: -30%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 100%;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .container_dishes .dishes .dish .dish_container-image .dish_image {
+      height: 8rem;
+      width: 8rem;
+      border-radius: 100%;
+      background-color: #1E1E1E;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .container_dishes .dishes .dish .dish_container-image .dish_image img {
+      height: 6rem;
+      width: 6rem;
+  }
+
+  .container_dishes .dishes .dish h5,
+  .container_dishes .dishes .dish h6 {
+      text-align: center;
+      color: #FFF;
+  }
+
+  .container_dishes .dishes .dish h5 {
+      margin: 6rem 0 1rem;
+      font-weight: bold;
+      font-size: 0.8rem;
+  }
+
+  .container_dishes .dishes .dish h6 {
+      font-weight: 300;
+      font-size: 0.7rem;
+  }
+
+  .container_dishes .dishes .dish .dish_price {
+      margin-top: 2.5rem;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      color: #FFF;
+      font-size: 0.6rem;
+  }
+
+  .container_dishes .dishes .dish .dish_price .price {
+      color: #42FF00;
+  }
+
+  .container_dishes .dishes .dish .dish_price .show_more {
+      font-weight: bold;
+      color: #FF6347;
+      text-decoration: none;
+  }
+
+  @media (min-width:767px) {
+
+      .container_dishes {
+          padding: 0 4rem;
+      }
+
+      .container_dishes .dishes .dish {
+          width: 16rem;
+          height: 8rem;
+      }
+
+      .container_dishes .dishes .dish .dish_container-image {
+          height: 8.2rem;
+          width: 8.2rem;
+          top: -1%;
+          left: 0%;
+          transform: translateX(-36%);
+      }
+
+      .container_dishes .dishes .dish .dish_container-image .dish_image {
+          height: 7.3rem;
+          width: 7.3rem;
+      }
+
+      .container_dishes .dishes .dish .dish_container-image .dish_image img {
+          height: 5rem;
+          width: 5rem;
+      }
+
+      .container_dishes .dishes .dish h5 {
+          margin: 1rem 0 .3rem 4.3rem;
+      }
+
+      .container_dishes .dishes .dish h6 {
+          margin-left: .2rem;
+          font-size: 0.6rem;
+      }
+
+      .container_dishes .dishes .dish .dish_price {
+          margin: 3.5rem .6rem 0;
+          color: #FFF;
+          font-size: 0.6rem;
+      }
+
+      .container_dishes .dishes .dish .dish_price .price {
+          margin-left: 4.3rem;
+          color: #42FF00;
+      }
+
+      .container_dishes .dishes .dish .dish_price .show_more {
+          font-weight: bold;
+          color: #FF6347;
+      }
+  }
